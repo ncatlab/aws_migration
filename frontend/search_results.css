@@ -1,0 +1,26 @@
+ul {
+  list-style: none;
+  padding-left: 0em;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+  content: "";
+  display: inline-block;
+  top: 5em;
+  margin-left: 2em;
+  box-sizing: border-box;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #226622;
+  animation: spinner 1s linear infinite;
+}

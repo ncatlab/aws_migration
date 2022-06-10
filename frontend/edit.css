@@ -1,0 +1,91 @@
+div {
+  padding-top: 2em;
+}
+
+textarea, p {
+  width: 100%;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+.announcement_instructions {
+  padding-top: 0em;
+  margin-top: 0em;
+  font-size: 1.1em;
+}
+
+.error_messages {
+  color: red;
+  display: none;
+}
+
+#author {
+  font-size: 1.1em;
+}
+
+#edit_source {
+  height: 45em;
+}
+
+#announcement {
+  height: 10em;
+}
+
+.edit_button {
+  background-color: #226622;
+  border-color: outset;
+  color: white;
+  font-size: 1.1em;
+  text-shadow: none;
+  border: 0px;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  cursor: pointer;
+}
+
+#edit_preview {
+  margin-right: 5em;
+}
+
+#syntax_guide {
+  font-size: 0.9em;
+  border: 2px solid black;
+  margin-top: 1.1em;
+  display: none;
+}
+
+#syntax_guide > ol {
+  margin-top: -1.1em;
+}
+
+#syntax_guide_link {
+  font-size: 1.1em;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+  content: "";
+  display: inline-block;
+  top: 5em;
+  margin-left: 50%;
+  box-sizing: border-box;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  border-top-color: #226622;
+  animation: spinner 1s linear infinite;
+}
+
+#preview_separator {
+  display: none;
+}

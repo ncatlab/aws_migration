@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self' $forum_root_url; img-src 'self' https://upload.wikimedia.org https://ncatlab.org">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="$root_url/page.css">
+<link rel="stylesheet" type="text/css" href="$root_url/katex.css">
+<title>$page_name</title>
+</head>
+<body>
+<div id="container">
+<div id="content">
+<h1 id="title">
+<a href="$home_page">
+<span class="logo">
+<img src="$root_url/logo.svg" alt="logo">
+</span>
+<span class="overall_name">$overall_name</span>
+</a>
+<br>
+$page_name
+</h1>
+<span class="search" role="search">
+<input type="text" placeholder="Search the nLab" aria-label="Search the nLab" id="search">
+</span>
+$body_content
+<div id="menu_separator">
+<hr>
+</div>
+<div id="bottom_menu" class="bottom_menu"></div>
+</div>
+</div>
+<script src="$root_url/environment_variables.js"></script>
+<script src="$root_url/includes.js"></script>
+<script src="$root_url/contents_and_numbering.js"></script>
+<script src="$root_url/new_context_menus.js" defer></script>
+<script src="$root_url/meta_page_links.js"></script>
+<script src="$root_url/submit_search.js"></script>
+</body>
+</html>

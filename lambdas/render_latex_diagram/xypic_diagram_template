@@ -1,0 +1,15 @@
+\documentclass[$document_parameters]{standalone}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools, xcolor}
+
+\usepackage[all, color, 2cell]{xy}
+
+\UseTwocells
+
+\begin{document}
+
+$font_size
+
+$xypic_diagram
+
+\end{document}

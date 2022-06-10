@@ -1,0 +1,278 @@
+body {
+  font-family: "DejaVu Serif", "Cambria", Serif !important;
+  font-size: 100%;
+  line-height: 1.3em;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 1.8em;
+}
+
+h2 {
+  margin-top: 35px;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.4em;
+  margin-top: 30px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 1.075em;
+}
+
+p {
+  line-height: 1.3em;
+  text-align: justify;
+  font-size: 1.13em;
+}
+
+li {
+  line-height: 1.3em;
+  text-align: justify;
+  font-size: 1.13em;
+}
+
+li + li {
+  margin-top: 0.7em;
+}
+
+li > ul > li {
+  font-size: 1em;
+}
+
+li > ol > li {
+  font-size: 1em;
+}
+
+a {
+  color: #000;
+}
+
+#table_of_contents li {
+  margin-bottom: 0.6em;
+}
+
+#table_of_contents ul {
+  list-style: none;
+  padding-left: 0.75em;
+}
+
+#table_of_contents a {
+  color: #226622;
+}
+
+#table_of_contents a:hover {
+  color: #2c66d8;
+}
+
+#table_of_contents a:visited {
+  color: #164416;
+}
+
+#table_of_contents a:visited:hover {
+  color: #2c66d8;
+}
+
+strong {
+  font-style: italic;
+}
+
+span.theorem_label {
+  font-style: italic;
+}
+
+a.page_link {
+  color: #226622;
+}
+
+a:visited.page_link {
+  color: #164416;
+}
+
+a:hover.page_link {
+  color: #2c66d8;
+  background: none;
+}
+
+a:visited:hover.page_link {
+  color: #2c66d8;
+  background: none;
+}
+
+.new_page_link {
+  color: #226622;
+  background-color: #DDD;
+}
+
+.new_page_link a:hover {
+  color: #226622;
+  background-color: #FFF;
+}
+
+#container {
+  margin: 0 10px;
+  text-align: center;
+}
+
+#content {
+  border-top: none;
+  margin: auto;
+  padding: 0.3em;
+  text-align: left;
+  width: 100%;
+  max-width: 55em;
+}
+
+h1#title {
+  font-size: 2.8em;
+  margin-top : 1em;
+  padding-bottom: 0.3em;
+  line-height: 1em;
+  color: #226622;
+}
+
+.logo > svg {
+  margin: 0;
+}
+
+.overall_name {
+  position: absolute;
+  left: 70px;
+  top: 27px;
+  color: #555;
+  font-family: "DejaVu Sans", "Sans-Serif";
+  font-weight: lighter;
+  font-size: 0.45em;
+}
+
+.logo {
+  position: absolute;
+  float: left;
+  top: 10px;
+  left: 20px;
+  margin: 0.5em 0.25em -0.25em 0;
+}
+
+.search {
+  position: absolute;
+  top: 37px;
+  right: 20px;
+}
+
+.search > input {
+  font-size: 1.1em;
+  color: #555;
+  font-weight: lighter;
+  font-family: "DejaVu Sans", "Sans-Serif";
+  max-width: 10em;
+}
+
+.search > input:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 960px) {
+  title {
+    margin-top: 100px;
+  }
+}
+
+math {
+  font-family: "DejaVu Math TeX Gyre", "Cambria Math" !important;
+  font-size: 1.1em;
+}
+
+mtext {
+  font-family: "DejaVu Serif", "Cambria" !important;
+  font-size: 1.1em;
+}
+
+#context_menu {
+  float: right;
+  font-size: 0.75em;
+  margin-left: 2em;
+  margin-right: 0em;
+  margin-top: 1.1em;
+  padding-top: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: 2px solid #ccc;
+  max-width: 25%;
+  line-height: 0.75em;
+  display: none;
+}
+
+#context_menu > h2 {
+  margin-top: 0em;
+}
+
+#context_menu > h3 {
+  margin-top: 0.85em;
+}
+
+.definition_environment {
+  margin-top: 1.55em;
+}
+
+span.definition_environment {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.theorem_environment {
+  margin-top: 1.55em;
+  font-style: italic;
+}
+
+span.theorem_environment {
+  font-style: italic;
+  font-weight: bold;
+}
+
+span.proof_environment {
+  font-style: italic;
+}
+
+span.equation {
+  float: right;
+}
+
+.bottom_menu {
+  padding-top: 0.75em;
+}
+
+.bottom_menu > a {
+  padding-right: 2em;
+  font-size: 0.85em;
+  color: #888;
+}
+
+.centre {
+  text-align: center;
+}
+
+#menu_separator {
+  margin-top: 1em;
+  display: none;
+}

@@ -1,0 +1,33 @@
+ul {
+  list-style: none;
+  padding-left: 0em;
+}
+
+li:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+span.revision_details {
+  color: #666;
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+
+a.revision {
+  color: #226622;
+}
+
+a:visited.revision {
+  color: #164416;
+}
+
+a:hover.revision {
+  color: #2c66d8;
+  background: none;
+}
+
+a:visited:hover.revision {
+  color: #2c66d8;
+  background: none;
+}
+

@@ -1,0 +1,15 @@
+\documentclass[class=scrartcl]{standalone}
+
+\KOMAoptions{fontsize=14pt}
+
+\usepackage{tikz}
+
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+
+$tikz_libraries
+
+\begin{document}
+
+$tikz_diagram
+
+\end{document}
